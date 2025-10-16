@@ -90,7 +90,7 @@ const Contact = () => {
         animate="visible"
         className="w-full h-full flex flex-col items-center justify-center"
       >
-        <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-6">
+        <h1 className="text-[55px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-6">
           Get in Touch
         </h1>
         <p className="text-white/70 max-w-lg text-center px-4 mb-10">

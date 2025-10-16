@@ -9,7 +9,7 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
       id="projects"
     >
-      <h1 className="text-[40px] font-spaceGrotesk font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400 py-20">
+      <h1 className="text-[55px] font-spaceGrotesk font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400 py-20">
         My Projects
       </h1>
       <div className="w-full flex flex-wrap justify-center gap-10 px-10">
