@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
+import { project_data } from "@/constants";
+
 
 const Projects = () => {
   return (
@@ -7,26 +9,22 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-[40px] font-spaceGrotesk font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-      </div>
+      <div className="w-full flex flex-wrap justify-center gap-10 px-10">
+  {project_data.map((project, index) => (
+    <ProjectCard
+      key={index}
+      src={project.src}
+      title={project.title}
+      description={project.description}
+      githubLink={project.githubLink}
+      tags={project.tags}
+    />
+  ))}
+</div>
+
     </div>
   );
 };
