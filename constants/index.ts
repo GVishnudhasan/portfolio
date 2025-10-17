@@ -62,7 +62,7 @@ export const experience_data = [
     company: "CareStack",
     date: "May 2025 - Present",
     description: [
-      "Collaborated on the frontend team building the VoiceStack for AI-powered call handling, used by over 2,000 dental practices and processing 100K+ calls/month with real-time transcription.",
+      "Collaborated on the frontend team building the VoiceStack for AI-powered call handling, used by over 1,000 dental practices and processing 100K+ calls/month with real-time transcription.",
       "Improved UI performance and workflows: 40% faster load times, 30% uplift in agent resolution efficiency, and implemented modular role-based interfaces to support multi-location scalability."
     ],
     logo: "./carestack.png"
@@ -79,12 +79,12 @@ export const experience_data = [
   },
   {
     title: "Project Lead",
-    company: "SpotKwik",
+    company: "SpotKwik (Acquired by Omnia)",
     date: "Apr 2024 - Feb 2025",
     logo: "sk.png",
     description: [
-    "Led a cross-functional team collaborating closely with backend engineers to design and implement an advanced data analytics platform featuring seamless API and SAP integration.",
-    "Oversaw development and maintenance of sales and purchase analytics dashboards, enhancing business insights and decision-making capabilities by 70%.",
+    "Led a cross-functional team collaborating closely with backend engineers to design and implement an advanced DA platform and AR/VR features, enhancing user engagement by 25%.",
+    "Played a key role in SpotKwik’s acquisition by Omnia, strengthening XR capabilities and partnerships with major clients like Tesla and GM.",
   ],
   },
   {
