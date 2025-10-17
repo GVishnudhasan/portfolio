@@ -83,7 +83,7 @@ export const experience_data = [
     date: "Apr 2024 - Feb 2025",
     logo: "sk.png",
     description: [
-    "Led a cross-functional team collaborating closely with backend engineers to design and implement an advanced DA platform and AR/VR features, enhancing user engagement by 25%.",
+    "Led a cross-functional team collaborating to design and implement an advanced DA platform and AR/VR features, enhancing user engagement by 25%.",
     "Played a key role in SpotKwik’s acquisition by Omnia, strengthening XR capabilities and partnerships with major clients like Tesla and GM.",
   ],
   },
