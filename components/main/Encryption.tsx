@@ -151,7 +151,7 @@ const Experience = () => {
         {/* Sticky Header with enhanced styling */}
         <div className="sticky top-16 sm:top-20 bg-gradient-to-b from-[#030014] via-[#030014] to-transparent py-10 sm:py-14 md:py-16 flex justify-center">
           <div className="relative">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-purple-400 to-cyan-500 mb-0 select-none">
+            <h1 className="text-[55px] md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-purple-400 to-cyan-500 mb-0 select-none">
               Experience
             </h1>
             {/* Glow effect under title */}
