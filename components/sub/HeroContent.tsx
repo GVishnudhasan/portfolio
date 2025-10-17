@@ -59,7 +59,8 @@ const HeroContent = () => {
                       "Software Engineer",
                       "Frontend Developer",
                       "Open Source Contributor",
-                      "AI Enthusisast",
+                      "AI Enthusiast",
+                      "Public Speaker",
                     ]}
                     loop={true}
                     cursor
