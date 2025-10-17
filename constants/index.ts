@@ -93,8 +93,8 @@ export const experience_data = [
   date: "Jul 2023 - Nov 2023",
   logo: "codemate.png",
   description: [
-    "Developed new features, integrated payments, and testing, resulting in a 30% boost in user engagement and expanding the user base to over 25,000 across both WebApp and VSCode Extension.",
-    "Authored comprehensive documentation to ensure clarity for internal teams and users. Collaborated closely with the CEO to shape and implement core product logic and strategy.",
+    "Led product strategy and development, driving a 30% increase in user engagement and expanding to 25,000+ users across WebApp and VSCode Extension.",
+    "Built core features, authored documentation, and collaborated with the CEO to shape product direction and strategy.",
   ],
 }
 
